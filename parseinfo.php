@@ -4,6 +4,12 @@
 $fName = $_POST["fname"];
 $lName = $_POST["lname"];
 $initials = $_POST["initials"];
+$dept = $_POST["dept"];
+
+
+
+
+
 
 
 
@@ -14,6 +20,7 @@ echo "<br />";
 echo $lName;
 echo "<br />";
 echo $initials;
-
+echo "<br />";
+echo $dept;
 
 ?>

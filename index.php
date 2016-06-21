@@ -16,14 +16,21 @@
 
 <body>
 
-
+<center>
 <form action="parseinfo.php" method="post">
 First Name: <input type="text" name="fname"><br>
 Last Name: <input type="text" name="lname"><br>
 Initials: <input type="text" name="initials"><br>
+What Department?
+<select name="dept">
+  <option value="">Select...</option>
+  <option value="Systems">Systems</option>
+  <option value="Culture">Culture</option>
+</select>
+<br />
 <input type="submit">
 </form>
-
+</center>
 
 
 
